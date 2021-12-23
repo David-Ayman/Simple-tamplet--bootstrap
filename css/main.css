@@ -1,0 +1,177 @@
+/* body{
+    background: black;
+} */
+#header .navbar .navbar-brand img{
+    width: 100px;
+}
+#header .navbar{
+    background: linear-gradient(to right, #111, #333, #ddd );
+}
+#header .navbar .collapse li a{
+    color: wheat;
+    font-family: cursive;
+    font-weight: 300;
+}
+#header .navbar .collapse li a:hover{
+color: black;
+text-decoration: underline;
+background-color: white;
+border-radius: 15px;
+}
+.dodo{
+    margin-bottom: 50px;
+}
+/* ====================================== */
+#profile{
+    background:linear-gradient(to right, #111,#222, #333, #ddd );
+    margin-bottom:50px;
+
+}
+#profile .header-profile h1{
+    color: white;
+    /* text-align: center; */
+}
+#profile .header-profile hr{
+border: 1px white dashed;
+
+}
+#profile .header-profile .hr{
+    width:50%;
+    height:2px;
+    margin:auto ;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+#profile img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+#profile .container{
+    color: white;
+    font-family: 'Akaya ,Telivigala', cursive;
+}
+#profile .container p{
+    margin-bottom: 20px;
+}
+/* =============our gallery============= */
+#GALLRY{
+    background:linear-gradient(to right, #111,#222, #333, #ddd );
+    margin-bottom: 30px;
+}
+#GALLRY .header-profile .hr{
+    width:50%;
+    height:2px;
+    margin:auto ;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+#GALLRY .header-profile hr{
+    border: 1px white dashed;
+}
+#GALLRY h1{
+    color: white;
+}
+#GALLRY .nav{
+    width: 50%;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+#GALLRY .nav a{
+    color: white;
+}
+#GALLRY .nav .active{
+    color: black;
+    font-weight:bold ;
+}
+.container{
+    justify-content: space-around;
+}
+.row{
+    width: 100%;
+}
+.row  img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+/* ================end our gallery================== */
+#order{
+    background:linear-gradient(to right, #111,#222, #333, #ddd );
+    margin-bottom: 30px;
+}
+#order h1{
+    color: white;
+}
+#order .header-profile .hr{
+    width:50%;
+    height:2px;
+    margin:auto ;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+#order .header-profile hr{
+    border: 1px white dashed;
+}
+#order .container .row{
+    width: 100%;
+}
+#order .container .row .col-md-6 .form-group label{
+    color: white;
+    font-size: 20px;
+}
+#order .container .row .col-md-6 iframe{
+    width: 100%;
+    height: 200px;
+}
+#order .container .row form{
+    margin-bottom: 20px;
+}
+/* =================end order============ */
+#footer{
+    background:linear-gradient(to right, #111,#222, #333 );
+}
+#footer .h6{
+    color: white;
+    margin-top: 30px;
+    margin-left: 3px;
+}
+#footer h6{
+    color: white;
+    margin-top: 30px;
+    margin-left: 37px;
+}
+#footer p{
+    color: #737373;
+    font-size: 15px;
+}
+#footer .container .row .col-md-3 .footer-links li {
+    list-style-type:none ;
+    
+}
+#footer .container .row .col-md-3 .footer-links li a{
+    color: #737373;
+}
+#footer .container .row .col-md-3 .footer-links li a:hover{
+    color:#007bff ;
+    text-decoration: none;
+}
+#footer .container .row hr{
+    color: #8c8a8a;
+    border: 1px solid;
+    width: 100%;
+}
+#footer .container .row .clearfix .float-right {
+    margin-right: -60px;
+    font-size:20px;
+    color: #8c8a8a;
+}
+#footer .container .row .clearfix .float-right .facebook:hover {
+    color:#0250a3 ;
+}
+#footer .container .row .clearfix .float-right .instagram:hover{
+    color:rgb(18, 145, 174) ;
+}
+#footer .container .row .col-12 p a{
+    color: #8c8a8a
+}
+#footer .container .row .col-12 p a:hover{
+    color:#0250a3 ;
+    text-decoration: none;
+}
